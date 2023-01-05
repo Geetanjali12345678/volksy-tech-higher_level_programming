@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-#!/usr/bin/python3
-def element_at(my_list, idx):
+#!/usr/bin/python
+def replace_in_list(my_list, idx, element):
     if idx < 0:
         return my_list
     elif idx >= len(my_list):
@@ -8,4 +7,3 @@ def element_at(my_list, idx):
     else:
         my_list[idx] = element
         return my_list
-
