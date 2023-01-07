@@ -9,4 +9,3 @@ for i in range(len(st)):
         sum -= value
     else:
         sum += value
-print(sum)
