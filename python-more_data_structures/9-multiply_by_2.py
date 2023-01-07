@@ -1,4 +1,4 @@
-#!/usr/bin/pythom3
+#!/usr/bin/python3
 def multiply_by_2(dic):
     new_dic ={}
     for i in dic:
