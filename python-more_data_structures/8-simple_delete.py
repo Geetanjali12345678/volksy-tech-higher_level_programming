@@ -5,4 +5,3 @@ def simple_delete(dic, k):
         return dic
     else:
         return dic
-a_dictionary = {'language': "C", 'Number': 89, 'track': "Low", 'ids': [1, 2, 3]}
