@@ -37,4 +37,4 @@ def roman_to_int(roman_string):
         for index in temp:
             if index == k:
                 result += v
-    return result
+        return result
