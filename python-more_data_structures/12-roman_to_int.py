@@ -18,7 +18,6 @@ def roman_to_int(roman_string):
         "D": 500,
         "M": 1000
     }
-
     result = 0
     temp = list(roman_string)
     if len(temp) > 1:
