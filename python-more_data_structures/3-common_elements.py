@@ -7,4 +7,4 @@ for i in set_1:
 for i in set_2:
     if i in set_1:
         lst.append(i)
-    return lst
+return lst
