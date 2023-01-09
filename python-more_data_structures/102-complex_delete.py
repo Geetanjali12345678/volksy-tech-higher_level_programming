@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 def complex_delete(d, ele):
     if ele in d.values():
         for i in list(d.keys()):
