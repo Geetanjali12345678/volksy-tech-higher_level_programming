@@ -2,8 +2,8 @@
 """size class for square"""
 
 
-class square:
-    """square class"""
+class Square:
+    """Square class"""
     def__init__(self,size):
         """Size of square"""
         self.__size = size
