@@ -16,5 +16,7 @@ class Square:
         except:
             return self_size
 
+
+
     def area(self):
         return self.__size * * 2
