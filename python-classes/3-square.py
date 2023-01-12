@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+'''square'''
+
+
 class Square:
+    '''init'''
+
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
