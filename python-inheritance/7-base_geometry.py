@@ -1,12 +1,17 @@
 #!/usr/bin/python3
-# 1-my_list.py
-# Brennan D Baraban <375@holbertonschool.com>
-"""Defines an inherited list class MyList."""
+""" 7-base_geometry method """
 
 
-class MyList(list):
-    """Implements sorted printing for the built-in list class."""
+class BaseGeometry:
+    """ Class BaseGeometry
+    """
+    def area(self):
+        """ raises an exception """
+        raise Exception("area() is not implemented")
 
-    def print_sorted(self):
-        """Print a list in sorted ascending order."""
-        print(sorted(self))
+    def integer_validator(self, name, value):
+        """ validates value """
+        if type(value) != int:
+            raise TypeError("{:s} must be an integer".format(name))
+        if value <= 0:
+            raise ValueError("{:s} must be greater than 0".format(name))
