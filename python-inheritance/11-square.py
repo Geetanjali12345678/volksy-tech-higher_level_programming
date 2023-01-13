@@ -1,20 +1,22 @@
 #!/usr/bin/python3
-"""
-Square module
-"""
+""" Class inherited from rectangle """
+
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """class inherits from Rectangle"""
-
+    """ class Square that inherits from Rectangle (9-rectangle.py) """
     def __init__(self, size):
-        """initialization method"""
-        self.integer_validator('size', size)
+        """ Constructor maping size to parent constructor"""
         self.__size = size
+        self.integer_validator("size", self.__size)
         super().__init__(self.__size, self.__size)
 
+    def area(self):
+        """ Calling parent method area() """
+        return (super().area())
+
     def __str__(self):
-        """print method"""
-        return "[{}] {}/{}".format(__class__.__name__,
-            self.__size, self.__size)
+        """ Calling parent method str() """
+        return "[Square] " + str(self.__size) + "/" + str(self.__size)
