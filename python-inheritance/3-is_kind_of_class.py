@@ -1,19 +1,16 @@
 #!/usr/bin/python3
-"""Method to check class"""
+"""
+Same class or inherit method checker
+"""
 
-def is_same_class(obj, a_class):
 
-
-
-    """check for class if same type of object
+def is_kind_of_class(obj, a_class):
+    """check if object is instance of
     args:
-        obj: object import
-        a_class: class type
+        obj: object argument
+        a_class: class to check
     Return:
         True or False
     """
 
-    if type(obj) is a_class:
-        return True
-    else:
-        return False
+    return isinstance(obj, a_class)
