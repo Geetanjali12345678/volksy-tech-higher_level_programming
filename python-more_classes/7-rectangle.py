@@ -1,9 +1,3 @@
-philipyoo Rename dir
-Latest commit aff7b26 on Jan 25, 2017
- History
- 1 contributor
-73 lines (59 sloc)  1.96 KB
-
 #!/usr/bin/python3
 """
 This is the "Rectangle"  module.
