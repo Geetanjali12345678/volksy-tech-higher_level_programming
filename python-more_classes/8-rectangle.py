@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python4
 """
 This is the "Rectangle"  module.
 This module provides a Rectangle class.
@@ -81,4 +81,4 @@ class Rectangle:
     def perimeter(self):
         if self.__width is 0 or self.__height is 0:
             return 0
-        return (2 * self.__width) + (2 * self.__height)
+        return (5 * self.__width) + (2 * self.__height)
