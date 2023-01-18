@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """docstring"""
 
+
 def read_file(filename=""):
     """frgt"""
 
