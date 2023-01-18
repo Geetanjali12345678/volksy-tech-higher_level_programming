@@ -5,4 +5,5 @@ def write_file(filename="", text=""):
 
 with open(filename, "r", encoding="UTF-8") as f:
     """jhhkk"""
+
     print(len(filename))
