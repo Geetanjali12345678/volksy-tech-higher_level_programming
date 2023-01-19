@@ -1,12 +1,6 @@
 #!/usr/bin/python3
 
-"""
-
-Script that adds all arguments to a Python list,
-
-then saves them to a file
-
-"""
+"""Script that adds all arguments to a Python list"""
 
 import sys
 
@@ -27,12 +21,9 @@ ListyBoii = []
 try:
 
     ListyBoii = load_from_json_file(fname)
-
 except:
 
     pass
-
-
 
 for i in range(1, len(sys.argv)):
 
