@@ -1,4 +1,4 @@
-                                                                                                                                                                 0,0-1         Al#!/usr/bin/python3
+#!/usr/python3                                                                                                                                                                 0,0-1         Al#!/usr/bin/python3
 """
 A model that contains a Base class to manage
 the id attribute of all classes that extend
