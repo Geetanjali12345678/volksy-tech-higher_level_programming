@@ -4,7 +4,6 @@ rectangle module that defines the Rectangle class
 """
 from models.base import Base
 
-
 class Rectangle(Base):
     """Rectangle class"""
     def _init_(self, width, height, x=0, y=0, id=None):
