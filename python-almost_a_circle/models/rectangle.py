@@ -27,8 +27,8 @@ class Rectangle(Base):
 
     def _str_(self):
         """return string representation of Rectangle"""
-        return '[' + type(self)._name_ + '] (' + str(self.id) 
-            + ') ' + str(self._x) + '/' + str(self._y) + ' - ' 
+        return '[' + type(self)._name_ + '] (' + str(self.id) \
+            + ') ' + str(self._x) + '/' + str(self._y) + ' - ' \
             + str(self._width) + '/' + str(self._height)
 
     def update(self, *args, **kwargs):
@@ -108,3 +108,4 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
