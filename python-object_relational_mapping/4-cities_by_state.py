@@ -30,4 +30,3 @@ if __name__ == "__main__":
     # close
     c.close()
     db.close()
-
