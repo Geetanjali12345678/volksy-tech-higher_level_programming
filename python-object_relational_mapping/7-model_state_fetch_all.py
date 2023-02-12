@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# list all state objects from the database
+
 if __name__ == "__main__":
     from sqlalchemy import create_engine
     from sqlalchemy.orm import Session
