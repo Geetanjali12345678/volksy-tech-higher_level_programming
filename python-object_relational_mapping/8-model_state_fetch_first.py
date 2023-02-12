@@ -20,9 +20,7 @@ if __name__ == "__main__":
 
     # create engine, metadata for stored objects
     engine = create_engine(c_url, pool_pre_ping=True)
-    Base.metadata.create_all(engine)
-
-    # session
+    Base.metadata.create_all(
     session = Session(engine)
 
     try:
@@ -30,6 +28,4 @@ if __name__ == "__main__":
         print("{}: {}".format(first.id, first.name))
     except:
         print('Nothing')
-
-    # close
     session.close()
